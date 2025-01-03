@@ -3,8 +3,8 @@ name = "bip32"
 version = "0.1.0"
 edition = "2021"
 
-[lib]
+[[bin]]
 name = "bip32"
-path = "src/lib.rs"
+path = "src/main.rs"
 
 [dependencies]
